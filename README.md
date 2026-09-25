@@ -15,19 +15,7 @@ Online IPL-style cricket auction game built with HTML, CSS and JavaScript.
 - Creator-only End Auction and Skip Pool controls
 - Vercel/GitHub Pages compatible
 
-## Online multiplayer setup
 
-1. Create a Supabase project.
-2. Open `supabase-config.js`.
-3. Enter your Supabase Project URL and browser-safe anon/publishable key.
-4. Commit the changed file to GitHub.
-5. Vercel automatically redeploys the connected repository.
-6. Open the Vercel URL on two or more devices/browsers.
-
-See **SUPABASE_SETUP.md** for the exact setup steps.
-
-### Security note
-Never put a Supabase `service_role` key in this frontend project. Only use the browser-safe publishable/anon key.
 
 ## Multiplayer flow
 
@@ -40,8 +28,4 @@ Players:
 The host is authoritative for the auction clock and game state. Human bids are sent to the host and then synchronized to all connected players.
 
 
-## V20 Update
-- First hero image replaced with the supplied trophy-winning cricket image.
-- Hero caption: WIN THE BID • WIN THE AUCTION.
-- Player swap AI OVR acceptance window changed from ±3 to ±4.
-- Multiplayer swap routing strengthened so the target team owner receives the proposal and only that owner can accept it.
+
